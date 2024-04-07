@@ -67,6 +67,7 @@ flutter:
       - assets/images/family_members/ 
       - assets/images/numbers/
       - assets/sounds/numbers/
+      - assets/sounds/family_members/
 
   
 

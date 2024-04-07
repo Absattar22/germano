@@ -9,7 +9,7 @@ class FamilyMembersPage extends StatelessWidget {
 
   final List<ItemModel> numbers = const [
     ItemModel(
-      sound: 'sounds/numbers/number_one.mp3',
+      sound: 'sounds/Family_members/vater.wav',
       gerName: 'Vater',
       engName: 'Father',
       image: 'assets/images/family_members/dad.png',
@@ -118,8 +118,7 @@ class FamilyMembersPage extends StatelessWidget {
               padding: isLastItem
                   ? EdgeInsets.zero
                   : const EdgeInsets.only(bottom: 2), // Adjust padding
-              child: Item(
-                  number: numbers[index]),
+              child: Item(number: numbers[index]),
             );
           },
           itemCount: numbers.length,
