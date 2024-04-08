@@ -7,87 +7,87 @@ import 'package:germano/models/number.dart';
 class FamilyMembersPage extends StatelessWidget {
   const FamilyMembersPage({Key? key}) : super(key: key);
 
-  final List<ItemModel> numbers = const [
+  final List<ItemModel> familyMembers = const [
     ItemModel(
-      sound: 'sounds/Family_members/vater.wav',
+      sound: 'sounds/family_members/vater.wav',
       gerName: 'Vater',
       engName: 'Father',
       image: 'assets/images/family_members/dad.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_two.mp3',
+      sound: 'sounds/family_members/mutter.wav',
       gerName: 'Mutter',
       engName: 'Mother',
       image: 'assets/images/family_members/mam.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_three.mp3',
+      sound: 'sounds/family_members/sohn.wav',
       gerName: 'Sohn',
       engName: 'Son',
       image: 'assets/images/family_members/son.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_four.mp3',
+      sound: 'sounds/family_members/tochter.wav',
       gerName: 'Tochter',
       engName: 'Daughter',
       image: 'assets/images/family_members/daughter.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_sex.wav',
+      sound: 'sounds/family_members/bruder.wav',
       gerName: 'Bruder',
       engName: 'Brother',
       image: 'assets/images/family_members/brother.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_sex.wav',
+      sound: 'sounds/family_members/Schwester.wav',
       gerName: 'Schwester',
       engName: 'Sister',
       image: 'assets/images/family_members/sister.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_five.wav',
+      sound: 'sounds/family_members/Großmutter.wav',
       gerName: 'Großmutter',
       engName: 'Grandmother',
       image: 'assets/images/family_members/grandMother.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_sex.wav',
+      sound: 'sounds/family_members/Großvater.wav',
       gerName: 'Großvater',
       engName: 'Grandfather',
       image: 'assets/images/family_members/grandfather.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_sex.wav',
+      sound: 'sounds/family_members/Ehemann.wav',
       gerName: 'Ehemann',
       engName: 'Husband',
       image: 'assets/images/family_members/husband.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_sex.wav',
+      sound: 'sounds/family_members/Ehefrau.wav',
       gerName: 'Ehefrau',
       engName: 'Wife',
       image: 'assets/images/family_members/wife.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_seven.wav',
+      sound: 'sounds/family_members/Tante.wav',
       gerName: 'Tante',
       engName: 'Aunt',
       image: 'assets/images/family_members/aunt.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_eight.wav',
+      sound: 'sounds/family_members/Onkel.wav',
       gerName: 'Onkel',
       engName: 'Uncle',
       image: 'assets/images/family_members/uncle.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_nine.wav',
+      sound: 'sounds/family_members/Freund.wav',
       gerName: 'Freund',
       engName: 'Friend',
       image: 'assets/images/family_members/friend.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_ten.wav',
+      sound: 'sounds/family_members/Freundin.wav',
       gerName: 'Freundin',
       engName: 'Girlfriend',
       image: 'assets/images/family_members/Girl_Friend.png',
@@ -113,15 +113,15 @@ class FamilyMembersPage extends StatelessWidget {
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
-            final bool isLastItem = index == numbers.length - 1;
+            final bool isLastItem = index == familyMembers.length - 1;
             return Padding(
               padding: isLastItem
                   ? EdgeInsets.zero
                   : const EdgeInsets.only(bottom: 2), // Adjust padding
-              child: Item(number: numbers[index]),
+              child: Item(item: familyMembers[index]),
             );
           },
-          itemCount: numbers.length,
+          itemCount: familyMembers.length,
         ));
   }
 }

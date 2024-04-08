@@ -11,61 +11,61 @@ class NumbersPage extends StatelessWidget {
       sound: 'sounds/numbers/number_one.mp3',
       gerName: 'Eins',
       engName: 'One',
-      image: 'assets/images/numbers/number_one.png',
+      image: 'assets/images/numbers/one.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_two.mp3',
       gerName: 'Zwei',
       engName: 'Two',
-      image: 'assets/images/numbers/number_two.png',
+      image: 'assets/images/numbers/two.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_three.mp3',
       gerName: 'Drei',
       engName: 'Three',
-      image: 'assets/images/numbers/number_three.png',
+      image: 'assets/images/numbers/three.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_four.mp3',
       gerName: 'Vier',
       engName: 'Four',
-      image: 'assets/images/numbers/number_four.png',
+      image: 'assets/images/numbers/four.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_five.wav',
       gerName: 'Fünf',
       engName: 'Five',
-      image: 'assets/images/numbers/number_five.png',
+      image: 'assets/images/numbers/five.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_sex.wav',
       gerName: 'Sechs',
       engName: 'Six',
-      image: 'assets/images/numbers/number_six.png',
+      image: 'assets/images/numbers/six.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_seven.wav',
       gerName: 'Sieben',
       engName: 'Seven',
-      image: 'assets/images/numbers/number_seven.png',
+      image: 'assets/images/numbers/seven.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_eight.wav',
       gerName: 'Acht',
       engName: 'Eight',
-      image: 'assets/images/numbers/number_eight.png',
+      image: 'assets/images/numbers/eight.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_nine.wav',
       gerName: 'Neun',
       engName: 'Nine',
-      image: 'assets/images/numbers/number_nine.png',
+      image: 'assets/images/numbers/nine.png',
     ),
     ItemModel(
       sound: 'sounds/numbers/number_ten.wav',
       gerName: 'Zehn',
       engName: 'Ten',
-      image: 'assets/images/numbers/number_ten.png',
+      image: 'assets/images/numbers/ten.png',
     ),
   ];
 
@@ -93,7 +93,7 @@ class NumbersPage extends StatelessWidget {
               padding: isLastItem
                   ? EdgeInsets.zero
                   : const EdgeInsets.only(bottom: 1), // Adjust padding
-              child: Item(number: numbers[index]),
+              child: Item(item: numbers[index]),
             );
           },
           itemCount: numbers.length,

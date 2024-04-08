@@ -15,4 +15,3 @@ class germano extends StatelessWidget {
     );
   }
 }
-

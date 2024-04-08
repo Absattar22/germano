@@ -1,11 +1,18 @@
+import 'package:audioplayers/audioplayers.dart';
+
 class ItemModel {
   final String sound;
+  final String? image;
   final String gerName;
   final String engName;
-  final String image;
   const ItemModel(
       {required this.sound,
+      this.image,
       required this.gerName,
-      required this.engName,
-      required this.image});
+      required this.engName});
+
+  playSound() {
+    final player = AudioPlayer();
+    player.play(AssetSource(sound));
+  }
 }

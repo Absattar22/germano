@@ -4,7 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class Category extends StatelessWidget {
-  Category({this.text, this.onTap, required this.color ,});
+  Category({
+    this.text,
+    this.onTap,
+    required this.color,
+  });
   String? text;
   VoidCallback? onTap;
   final Color color;
