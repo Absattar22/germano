@@ -10,3 +10,4 @@ Germano is a user-friendly mobile application designed to introduce you to the f
 - Family Members: Learn common German terms for family members, enhancing your ability to introduce and talk about your loved ones. Each term is paired with a corresponding image and audio pronunciation.
 - Colors: Discover basic color names in German, allowing you to describe objects and your surroundings with newfound vocabulary. Each color word includes audio pronunciation.
 - Phrases: Explore a set of everyday German phrases, equipping you with practical communication skills for various situations. Each phrase comes with audio pronunciation to assist with correct speaking.
+https://github.com/Absattar22/germano/assets/116181912/f322fa59-3087-4722-8016-db5abbfb3b9f
