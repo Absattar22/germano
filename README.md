@@ -1,16 +1,12 @@
-# germano
+# Germano App
 
-A new Flutter project.
+A simple App for learning basics of german
 
-## Getting Started
+Germano is a user-friendly mobile application designed to introduce you to the fundamentals of the German language. It provides a structured and engaging learning experience with audio pronunciation for each word, perfect for beginners.
 
-This project is a starting point for a Flutter application.
+#Features
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Numbers (1-10): Practice counting from 1 to 10 in German, building a strong foundation for numerical comprehension. Each number is accompanied by clear audio pronunciation.
+- Family Members: Learn common German terms for family members, enhancing your ability to introduce and talk about your loved ones. Each term is paired with a corresponding image and audio pronunciation.
+- Colors: Discover basic color names in German, allowing you to describe objects and your surroundings with newfound vocabulary. Each color word includes audio pronunciation.
+- Phrases: Explore a set of everyday German phrases, equipping you with practical communication skills for various situations. Each phrase comes with audio pronunciation to assist with correct speaking.
