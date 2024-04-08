@@ -4,7 +4,7 @@ A simple App for learning basics of german
 
 Germano is a user-friendly mobile application designed to introduce you to the fundamentals of the German language. It provides a structured and engaging learning experience with audio pronunciation for each word, perfect for beginners.
 
-#Features
+# Features
 
 - Numbers (1-10): Practice counting from 1 to 10 in German, building a strong foundation for numerical comprehension. Each number is accompanied by clear audio pronunciation.
 - Family Members: Learn common German terms for family members, enhancing your ability to introduce and talk about your loved ones. Each term is paired with a corresponding image and audio pronunciation.
